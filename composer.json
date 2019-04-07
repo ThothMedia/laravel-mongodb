@@ -1,5 +1,6 @@
 {
     "name": "thothmedia/laravel-mongodb",
+    "type": "vcs",
     "description": "A MongoDB based Eloquent model and Query builder for Laravel 4. Folked from https://github.com/jenssegers/laravel-mongodb",
     "keywords": ["laravel","eloquent","mongodb","mongo","database","model"],
     "authors": [

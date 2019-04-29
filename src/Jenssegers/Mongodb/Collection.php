@@ -57,7 +57,7 @@ class Collection {
         $start = microtime(true);
 
         if($method == 'aggregate'){
-            $result = call_user_func_array(array($this->collection, $method), [$parameters, ['cursor' =>(object) []]]);
+            $result = call_user_func_array(array($this->collection, $method), [$parameters, ['cursor' =>(object) ['batchSize' => 10000]]]);
         } else {
             $result = call_user_func_array(array($this->collection, $method), $parameters);
         }
